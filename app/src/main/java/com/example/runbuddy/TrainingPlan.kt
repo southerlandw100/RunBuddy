@@ -3,9 +3,6 @@ package com.example.runbuddy
 import java.time.LocalDate
 
 fun generateIntermediate1Plan(startMonday: LocalDate): Map<LocalDate, TrainingRun> {
-    // PLAN IS ENCODED EXACTLY AS THE CHART YOU PROVIDED.
-    // We assume startMonday = your first Monday (Dec 15).
-    // We BACKSHIFT one day so Monday = "Mon" on the chart, Tuesday = "Tue", etc.
 
     val plan = mutableMapOf<LocalDate, TrainingRun>()
 
